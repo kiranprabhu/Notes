@@ -1,0 +1,3 @@
+in Maintenance tabl allow deleting of orphan llm-lb chunks. llm-kb on scan queries all chunks in brew with metdata source_link=llm-kb and compare the chunkid with the database to see 
+if any chunks no more maps llm-lb wiki and so deletes them from brew.
+Also checks for llm-kb wiki for missing chunks in brew and if found creates one in brew and maps the new chunk id with the wiki
